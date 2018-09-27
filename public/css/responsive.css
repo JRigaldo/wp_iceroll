@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px){
+
+	.center-img{
+		height: 540px;
+	}
+
+	.center-img .image_header{
+		background: url('../iceroll/public/img/header_img_mobile.jpg') no-repeat fixed;
+		background-position: top center;
+	}
+
+	section{
+		width: calc(100% - 1.5rem);
+	}
+
+	.row div{
+		width: 100%;
+	}
+
+	article{
+		margin: 10px 0;
+	}
+
+	section .card{
+		margin-bottom: 0;
+	}
+
+	section .card{
+		width: 100%;
+	}
+
+	aside .image_header{
+		background-size: auto 100%;
+	}
+
+	.big-title{
+		line-height: 1em;
+	}
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px){
+	.center-img .image_header{
+		background: url('../iceroll/public/img/header_img_tablette.jpg') no-repeat fixed;
+		background-position: top center;
+	}
+}
+
+
